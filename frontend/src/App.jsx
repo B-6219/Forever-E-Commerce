@@ -9,6 +9,7 @@ import PlaceOrder from "./pages/PlaceOrder";
 import Product from "./pages/Product";
 import Orders from "./pages/Orders";
 import Navbar from "./components/Navbar";
+import Collection from "./pages/Collection";
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/collection" element={<Home />} />
+          <Route path="/collection" element={<Collection />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
