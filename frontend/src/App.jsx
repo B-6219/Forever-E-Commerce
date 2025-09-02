@@ -8,11 +8,14 @@ import Login from "./pages/Login";
 import PlaceOrder from "./pages/PlaceOrder";
 import Product from "./pages/Product";
 import Orders from "./pages/Orders";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <BrowserRouter>
+
+
       <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/collection" element={<Home />} />
@@ -25,7 +28,7 @@ const App = () => {
           <Route path="/orders" element={<Orders />} />
         </Routes>
       </div>
-    </BrowserRouter>
+
   );
 };
 
