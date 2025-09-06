@@ -3,7 +3,7 @@ import { ShopContext } from "./ShopContext";
 import { products } from "../assets/frontend_assets/assets";
 
 const ShopContextProvider = ({ children }) => {
-  const currency = "$";
+  const currency = "Ksh";
   const delivery_Fee = 10;
 
   const value = { products, currency, delivery_Fee };
