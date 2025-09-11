@@ -2,6 +2,7 @@ import React from 'react'
 import { assets } from '../assets/frontend_assets/assets'
 
 const Hero = () => {
+  
   return (
     <div className='flex flex-col sm:flex-row border border-gray-400'>
       {/* Left side */}
@@ -18,6 +19,8 @@ const Hero = () => {
             </div>
         </div>
       </div>
+
+      
 
       {/* Righ side */}
       <img className='w-full sm:w-1/2 ' src={assets.hero_img} alt="" />
