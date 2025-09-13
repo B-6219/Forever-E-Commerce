@@ -2,10 +2,10 @@
 @import "tailwindcss";
 
 *{
-    font-family: Outfit;
+  font-family: Outfit;
 }
 a.active hr{
-    display: block;
+  display: block;
 }
 .prata-regular {
   font-family: "Prata", serif;
