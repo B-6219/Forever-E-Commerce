@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "../assets/frontend_assets/assets";
 
+
 const Footer = () => {
   return (
     
@@ -22,6 +23,19 @@ const Footer = () => {
             <li>Privacy Policy</li>
           </ul>
         </div>
+
+        <div>
+            <p className="text-x1 font-medium mb-4">Get In Touch</p>
+            <ul className="flex flex-col gap-1 text-gray-600">
+                <li>+2455777578</li>
+                <li>contact@forever.com</li>
+            </ul>
+        </div>
+      </div>
+
+      <div>
+        <hr />
+        <p className="py-5 text-sm text-center ">CopyRight 2024 All Rights Resevered</p>
       </div>
     </div>
   );
