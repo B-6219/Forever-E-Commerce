@@ -5,7 +5,7 @@ import { ShopContext } from '../context/ShopContext';
 
 const SearchBar = () => {
 
-     const {search ,setSearch ,showSearch, setShowSearch} = useContext(ShopContext)
+  const {search ,setSearch ,showSearch, setShowSearch} = useContext(ShopContext)
 
 
   return showSearch ? (
@@ -19,5 +19,7 @@ const SearchBar = () => {
     </div>
   ) : null;
 }
+
+
 
 export default SearchBar
